@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+.carouselContainer{
+    --bs-gutter-pd:100px;
+    padding-left: calc(var(--bs-gutter-pd)/2);
+    padding-right: calc(var(--bs-gutter-pd)/2);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carouselHeading{
+    margin-bottom: 30px;
+    padding-left: 10px;
+    font-family: 'poppins' ,sans-serif;
+}
+
+.customImg{
+    border-radius: 64px;
+}

@@ -1,0 +1,40 @@
+.cardList{
+    --bs-gutter-x:40px;
+    padding-left: calc(var(--bs-gutter-x)/2);
+    padding-right: calc(var(--bs-gutter-x)/2);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cardsHolder{
+    width:10rem;
+   /*  border: 2px solid black; */
+    margin: 40px 20px;
+    
+}
+
+.cardImg{
+    height:10rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#001fff54;
+    border-radius:20px;
+    cursor: pointer;
+}
+
+.cardText{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardImg h1{
+    padding:36px;
+}
+
+.cardText h6{
+    padding: 12px 0px;
+}

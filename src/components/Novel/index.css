@@ -1,0 +1,41 @@
+.CardContainer{
+    margin:10px 20px;
+    width:17rem;
+}
+
+.CardImg{
+    border-radius: 15px;
+    background-color:antiquewhite;
+}
+
+.CardContent{
+    padding: 10px;
+    line-height:1;
+}
+
+.custom-img{
+    width: 100%;
+    transform: scale(0.7);
+    height: 329px;
+}
+
+
+/* Novel */
+
+.NovelContainer{
+    --gaping: 80px;
+    padding-left: calc(var(--gaping)/2);
+    padding-right: calc(var(--gaping)/2);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.heading{
+    margin-top:55px;
+    margin-bottom: 30px;
+    padding-left: 50px;
+    font-family: 'poppins' ,sans-serif;
+}
